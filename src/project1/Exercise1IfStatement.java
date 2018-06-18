@@ -10,12 +10,16 @@ public class Exercise1IfStatement {
 		 */
 		
 		int bmw = 86000;
-		int jaguar = 101000;
+		int jaguar = 86000;
 		
-		if(bmw<=jaguar) System.out.println("BMW has " + bmw +" "
+		if(bmw<jaguar) System.out.println("BMW has " + bmw +" "
 				+ "mileage" + " JAGUAR has " + jaguar + " mileage.");
+		else System.out.println("Both are nice cars");
 		
-		if (jaguar>=bmw) System.out.println("JAGUAR has more milage.");
+		//if (jaguar>=bmw) System.out.println("JAGUAR has more milage.");
+		
+		
+		
 		
 	}
 
